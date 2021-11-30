@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-1-g15f4949  Build Version: 1.6.7594.29634
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="3ARA_URDF">
+  <link
+    name="Link_1">
+    <inertial>
+      <origin
+        xyz="2.44795514692253E-08 -8.24774534780026E-09 0.0477135067873397"
+        rpy="0 0 0" />
+      <mass
+        value="1.44873413604152" />
+      <inertia
+        ixx="0.0034941751811897"
+        ixy="1.91632807696372E-08"
+        ixz="-1.00886663918081E-15"
+        iyy="0.00288752317529553"
+        iyz="-9.05789203362275E-16"
+        izz="0.00569547108115791" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://3ARA_URDF/meshes/Link_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://3ARA_URDF/meshes/Link_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Link_2">
+    <inertial>
+      <origin
+        xyz="0.0228577197910093 0.060077150216546 -1.14421772196005E-07"
+        rpy="0 0 0" />
+      <mass
+        value="0.262488506991563" />
+      <inertia
+        ixx="0.000233584069352606"
+        ixy="-3.48047684676597E-05"
+        ixz="-1.25742178340882E-11"
+        iyy="0.000140530049442721"
+        iyz="2.91717070063304E-08"
+        izz="0.000204832416324175" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://3ARA_URDF/meshes/Link_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://3ARA_URDF/meshes/Link_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint_1"
+    type="continuous">
+    <origin
+      xyz="0 0 0.12396"
+      rpy="1.5708 0 -0.0053672" />
+    <parent
+      link="Link_1" />
+    <child
+      link="Link_2" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="Link_3">
+    <inertial>
+      <origin
+        xyz="-0.1075 0.0130012325105254 0.000202602268383922"
+        rpy="0 0 0" />
+      <mass
+        value="0.15616284743225" />
+      <inertia
+        ixx="8.43993359636958E-05"
+        ixy="-1.68083100470775E-21"
+        ixz="-3.93384136922637E-07"
+        iyy="0.000227413987282581"
+        iyz="-1.31290106824417E-20"
+        izz="0.000160200698471858" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://3ARA_URDF/meshes/Link_3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://3ARA_URDF/meshes/Link_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint_2"
+    type="continuous">
+    <origin
+      xyz="-0.0093352 0.07054 0"
+      rpy="3.1416 -0.17213 -1.5708" />
+    <parent
+      link="Link_2" />
+    <child
+      link="Link_3" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="Link_4">
+    <inertial>
+      <origin
+        xyz="-3.40515714934431E-05 0.0319540564170174 -0.0234998419205893"
+        rpy="0 0 0" />
+      <mass
+        value="0.240711599816444" />
+      <inertia
+        ixx="0.000174404040691833"
+        ixy="-1.28919759236908E-15"
+        ixz="1.27966508854057E-08"
+        iyy="0.00025121707846864"
+        iyz="5.28908131412283E-06"
+        izz="0.000102817624075162" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://3ARA_URDF/meshes/Link_4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://3ARA_URDF/meshes/Link_4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint_3"
+    type="continuous">
+    <origin
+      xyz="-0.215 0 0.0003"
+      rpy="3.1416 -0.57863 0" />
+    <parent
+      link="Link_3" />
+    <child
+      link="Link_4" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+</robot>
