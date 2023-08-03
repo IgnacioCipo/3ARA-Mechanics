@@ -1,9 +1,12 @@
 # 3ARA-Mechanics
 Mechanics part of my final project using SolidWorks. The robotic arm has 3 degrees of freedom, made with planetary gears.
 
-For the others parts of this projects go to:
+For the others parts of this projects you can go to:
+
 [Firmware](https://github.com/IgnacioCipo/3ARA_Firmware)
+
 [Software](https://github.com/IgnacioCipo/3ARA-Software)
+
 [Electronics](https://github.com/IgnacioCipo/3ARA-PCB)
 
 ## Images
